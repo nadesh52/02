@@ -1,0 +1,28 @@
+export type Hero = {
+  id: number;
+  hero_id: number;
+  localized_name: string;
+  primary_attr: string;
+  icon: string;
+  img: string;
+  base_str: number;
+  base_agi: number;
+  base_int: number;
+  base_attack_mim: number;
+  base_attack_max: number;
+  base_mr: number;
+  base_armor: number;
+  str_gain: number;
+  agi_gain: number;
+  int_gain: number;
+  move_speed: number;
+  roles: [string];
+  attack_range: number;
+  projectile_speed: number;
+  attact_rate: number;
+  base_attack_time: number;
+  attack_point: number;
+  turn_rate: number;
+  day_vision: number;
+  night_vision: number;
+};

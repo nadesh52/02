@@ -13,6 +13,7 @@ function Count() {
       setCount(count - 1);
     }
     setNum(count);
+    //commit1
     console.log("count", count);
     console.log("num", num);
   };

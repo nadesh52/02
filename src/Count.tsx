@@ -13,7 +13,8 @@ function Count() {
       setCount(count - 1);
     }
     setNum(count);
-    console.log(num);
+    console.log("count", count);
+    console.log("num", num);
   };
   return (
     <div>
